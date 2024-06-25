@@ -1,9 +1,11 @@
 # benjaminkhollan.github.io
-## The homepage for all things Benjamin
 
+## The homepage for all things Benjamin:
+
+https://benjaminkhollan.github.io/home.html
+
+List of running links. Will be moved elsewhere soon :)
 https://gopoly.com/sports/track-and-field/roster/benjamin-holland/6727
-
-https://www.linkedin.com/in/benjaminkholland37
 
 https://www.runnerspace.com/video.php?video_id=188678
 
@@ -23,8 +25,6 @@ https://www.crosscountryexpress.com/2015/10/northern-california-top-10-teams.htm
 
 https://lynbrooksports.prepcaltrack.com/ATHLETICS/XC/2015/allnorca.htm
 
-
 https://lynbrooksports.prepcaltrack.com/ATHLETICS/XC/2016/allnorca.htm
 
 https://www.crosscountryexpress.com/2015/10/
-
