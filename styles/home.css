@@ -8,6 +8,11 @@
 }
 
 /* Global styles */
+main {
+    min-height:100vh;
+    background:linear-gradient(to right top,gray,darkblue)
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
