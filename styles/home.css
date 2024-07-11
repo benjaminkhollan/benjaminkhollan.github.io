@@ -152,6 +152,7 @@ a:active {
 }
 
 ul.desc {
-    list-style-type: square; /* Standard options include disc, circle, square, none */
+    list-style-type: disc; 
+    padding-left: 20px;
 }
 
