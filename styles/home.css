@@ -102,7 +102,6 @@ h2 {
 ul {
     list-style: none;
     margin-bottom: 20px;
-
 }
 
 footer, footer a, footer a:visited {
@@ -151,3 +150,8 @@ a:active {
 .indent {
     text-indent: 4rem;
 }
+
+ul.desc {
+    list-style-type: square; /* Standard options include disc, circle, square, none */
+}
+
