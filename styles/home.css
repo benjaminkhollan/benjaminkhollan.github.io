@@ -10,28 +10,47 @@
 /* Global styles */
 main {
     min-height:100vh;
-    background:linear-gradient(to right top,gray,darkblue)
+    background:linear-gradient(to right top,#E5D5A5,#F5E2AA);
+    display:flex;
+    align-items:center;
+    justify-content: center;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Tahoma, sans-serif;
     line-height: 1.5;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    background-color: #D2BC79;
+    color: #E9E4D4;
+    padding: 40px;
+}
+
+span.smallText {
+    font-size: 12px; 
 }
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
+    padding: 0 20px;
+}
+
+.glass {
+    background:white;
+    min-height:80vh;
+    width:80%;
+    background:linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius:20px;
+    padding:40px;
+    margin-top: 40px;
+    margin-bottom: 40px; 
 }
 
 nav ul li {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 nav ul li a {
@@ -43,18 +62,49 @@ section {
     padding: 50px;
 }
 
+div ul.contactsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+div ul.contactsList li {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+div ul.contactsList li a {
+    display: block; 
+    text-decoration: none; 
+    color: #333; 
+}
+
+div {
+    padding-top: 50px;
+    padding-bottom:50px;
+
+}
+
 h1 {
     font-size: 24px;
     margin-bottom: 20px;
 }
 
+h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
 ul {
     list-style: none;
+    margin-bottom: 20px;
+
 }
 
 footer {
-    background-color: #333;
+    background-color: #C3AF71;
     color: #fff;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
 }
