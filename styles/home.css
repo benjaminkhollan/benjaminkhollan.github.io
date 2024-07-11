@@ -108,3 +108,22 @@ footer {
     padding: 40px;
     text-align: center;
 }
+
+#personalPhotos {
+    display: flex;               /* Enables flexbox layout */
+    justify-content: center;     /* Centers children horizontally */
+    align-items: center;         /* Aligns children vertically */
+    overflow: hidden;            /* Prevents content from spilling outside */
+    width: 100%;                 /* Full width to contain all images */
+    padding:10px;
+}
+
+.personalPhoto {
+    flex-shrink: 0;              /* Prevent images from shrinking */
+    max-width: 33%;              /* Each image can take up to one-third of the container width */
+    border-radius: 2rem;         /* Rounded corners */
+    margin: 5px;                 /* Reduce margin to ensure they fit in one line */
+    object-fit: cover;           /* Covers the frame, good for varying aspect ratios */
+    height: auto;                /* Maintain aspect ratio */
+    width: 100%;                 /* Ensure it tries to fill its designated space */
+}
