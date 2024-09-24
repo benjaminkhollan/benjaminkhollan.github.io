@@ -5,16 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benjamin Holland</title>
-    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/professional.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html" class="slide-button" data-text="Home">Home</a></li>
-                <li><a href="#academics" class="slide-button" data-text="Academics">Academics</a></li>
-                <li><a href="#career" class="slide-button" data-text="Career">Career</a></li>
-                <li><a href="#projects" class="slide-button" data-text="Projects">Projects</a></li>
+                <li><a href="../../index.html" class="slide-button" data-text="Home">Home</a></li>
+                <li><a href="../professional.html" class="slide-button" data-text="Professional">Professional</a></li>
+                <li><a href="../../personal.html" class="slide-button" data-text="Personal">Personal</a></li>
+                <li><a href="../../resume.html" class="slide-button" data-text="Resume">Resume</a></li>
+                <li><a href="mailto:benjamin.holland99@gmail.com?subject=Hello Ben!" class="slide-button" data-text="Contact">Contact</a></li>   
             </ul>
         </nav>
     </header>
@@ -23,57 +25,63 @@
             <div id="academics">
                 <h1>Academic Journey</h1>
                 <h2>University Experience</h2>
-                <p class="indent">Throughout high school, I had a passion for a wide range of subjects, which made selecting a college major challenging. 
-                    My interests in applying critical thinking and quantitative analysis were piqued by an AP Micro & Macroeconomics class which led me to pursue a BS in Economics at Cal Poly, where I also engaged in collegiate athletics.
-                    Additionally, my commitment to environmental stewardship inspired me to begin a minor in Sustainability, aiming to explore effective conservation strategies for future generations.
-                    As my college career progressed, I found myself particularly drawn to applied subjects. My enthusiasm grew during courses like Econometrics and Advanced Econometrics, which were complemented by my studies in linear algebra and other statistical disciplines, illuminating the practical applications of mathematical concepts.
-                    My curiosity extended into data analytics, prompting me to take electives in Text Mining, Business Analytics, eventually choosing to concentrate in Information Systems. 
-                    These courses introduced me to machine learning techniques applicable in natural language processing and other predictive analytics tools. 
+                <p class="indent">
+                    In high school, I was drawn to a wide range of subjects, making it difficult to choose a college major. My passion for critical thinking and quantitative analysis was sparked by an AP Micro and Macroeconomics class, which led me to pursue a BS in Economics at Cal Poly, where I also competed in collegiate athletics. Additionally, my interest in environmental conservation inspired me to minor in Sustainability. During my time at Cal Poly, I developed a strong interest in applied subjects, particularly Econometrics and Advanced Econometrics, which combined with linear algebra and statistical courses, helped me understand the practical applications of mathematical concepts. This foundation in data analysis fueled my curiosity, and I took electives in Text Mining, Business Analytics, and ultimately concentrated in Information Systems. These courses introduced me to machine learning techniques, particularly in natural language processing and predictive analytics.
                 </p>
                 <p class="indent">
-                Despite my solid foundation in statistical techniques and analytical tools from my undergraduate studies, I was driven by a continuous desire to learn and expand my expertise. 
-                This led me to pursue a Master’s in Business Analytics. 
-                I chose this path to deepen my understanding of the tools that had piqued my interest, gain practical experience through collaborations with partner companies, and leverage this knowledge to enhance business outcomes through analytics and machine learning.
-
-                I ultimately chose to attend CU Boulder for my graduate studies. The decision was influenced by the specialized track focusing on Decision Science, in collaboration with the Math Department, and the added personal benefit of being close to my grandparents. 
-                This program aligned perfectly with my academic and personal goals, providing an ideal setting for my advanced studies.
+                    Building on my strong foundation in statistical techniques and analytical tools from my undergraduate studies, I pursued a Master’s in Business Analytics to further expand my expertise. This program allowed me to deepen my understanding of the tools that interested me, gain hands-on experience through collaborations with partner companies, and leverage this knowledge to drive business outcomes using analytics and machine learning. I chose CU Boulder for its specialized track in Decision Science, developed in collaboration with the Math Department. A personal factor in my decision was the opportunity to be close to my grandparents, making CU Boulder the perfect choice for my advanced studies.
                 </p>
                 <p class="indent">
                     After college, I began 
                 </p>
-                <h2>Relevant Coursework</h2>
-                <img id="calpoly-logo" data-src="files/logos/calpoly-logo.png" alt="cal poly logo" loading="lazy" height="150px">
-                <ul>
-                    <li>Systems Analysis & Design</li>
-                    <li>Systems Design & Implementation</li>
-                    <li>Programming for Economics and Analytics</li>
-                    <li>Applied Forecasting</li>
-                    <li>Text Mining (Social Media Analytics)</li>
-                    <li>Advanced Econometrics</li>
-                    <li>Econometrics</li>
-                    <li>Business Analytics</li>
-                    <li>Business Application Development</li>
-                    <li>Database Systems in Business</li>
-                </ul>
-                <img id="cu-logo" data-src="files/logos/cu-logo.png" alt="cu logo" loading="lazy" height="150px">
-                <ul>
-                    <li>Modern Artificial Intelligence</li>
-                    <li>Machine Learning in Python</li>
-                    <li>Structured Data Modeling</li>
-                    <li>Unstructured and Distributed Data Modeling and Analysis</li>
-                    <li>Advanced Data Analytics</li>
-                    <li>Optimization Modeling</li>
-                    <li>Process Analytics</li>
-                </ul>
-            </div>
+                <section class="coursework-section">
+                    <div class="university-logo">
+                        <img src="/files/logos/calpoly-logo.png" alt="Cal Poly Logo">
+                    </div>
+                    <div class="coursework-content">
+                        <h2>Relevant Coursework</h2>
+                        <ul>
+                            <li>Systems Analysis & Design</li>
+                            <li>Systems Design & Implementation</li>
+                            <li>Programming for Economics and Analytics</li>
+                            <li>Applied Forecasting</li>
+                            <li>Text Mining (Social Media Analytics)</li>
+                            <li>Advanced Econometrics</li>
+                            <li>Econometrics</li>
+                            <li>Business Analytics</li>
+                            <li>Business Application Development</li>
+                            <li>Database Systems in Business</li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <section class="coursework-section">
+                    <div class="university-logo">
+                        <img src="/files/logos/cu-logo.png" alt="CU Boulder Logo">
+                    </div>
+                    <div class="coursework-content">
+                        <h2>Relevant Coursework</h2>
+                        <ul>
+                            <li>Modern Artificial Intelligence</li>
+                            <li>Machine Learning in Python</li>
+                            <li>Structured Data Modeling</li>
+                            <li>Unstructured and Distributed Data Modeling and Analysis</li>
+                            <li>Advanced Data Analytics</li>
+                            <li>Optimization Modeling</li>
+                            <li>Process Analytics</li>
+                        </ul>
+                    </div>
+                </section>
+                
+
             <div id="career">
                 <h1>Career</h1>
                 <div id="lucidworks" class="job-details">
                         <p class="job-company">Lucidworks</p>
                         <p class="job-date">August 2022-Present</p>
                         <p class="job-title">Search Engineer</p>
-                        <p class="job-desc">● Provide guidance and advisory on search and discovery to leaders at Fortune 1000 and Government agencies. Frequently serve as a Data Science SME, consulting on best practices for A/B testing, kNN search, clustering, classification, Generative AI model integrations, and practical usage of other data science methodologies.<br/>
-                            ● Perform Exploratory Data Analysis using Python (pandas, numpy) to clean data, identify implicit & explicit feedback of user behavior, and create additional features. Use Python, Spark and SQL to create training datasets from user queries and document/product catalogs to train machine learning models.<br/>
+                        <p class="job-desc">● Guide and advise Fortune 1000 and government leaders on search and discovery strategies. Serve as a Data Science SME, providing consultation on A/B testing, kNN search, clustering, classification, Generative AI model integration, and other data science methodologies.<br/>
+                            ● Conduct Exploratory Data Analysis (EDA) using Python (pandas, numpy) to clean data, uncover insights from user behavior, and engineer additional features. Build training datasets from user queries and product catalogs using Python, Spark, and SQL to support machine learning models.<br/>
                             ● Utilize Docker to package open-source and supervised text embeddings models to generate document and query vectors, increasing MRR and Recall by 10-40+%. <br/>
                             ● Perform ad-hoc data analysis for E-commerce clients before and after Black Friday/Cyber Monday Holiday to measure YoY changes, trends, and identify additional improvements. <br/>
                             ● Audited Professional Services SOW and RFP processes, automating SOW discovery and writing process, resulting in improved SOW writing turnaround times, reduced cost overruns and enhanced oversight of challenging deliverables. Facilitated a transition from siloed operations to a cohesive, integrated approach. Since taking responsibility, have scoped and authored $10M+ in contracts.<br/>
@@ -91,31 +99,86 @@
                         <p class="job-company">Truckee-Donner Public Utility District</p>
                         <p class="job-date">July 2019-August 2019</p>
                         <p class="job-title">GIS Analyst Intern</p>
-                        <p class="job-desc">● Digitized data using ArcGIS Products, Excel, and SQL language to convert paper documents and data collection forms into online documents that are easily accessible to service crews in the field saving 10+ employee hours per week.<br/>
+                        <p class="job-desc">● Used ArcGIS, Excel, and SQL to digitize data, transforming paper documents and data collection forms into accessible digital formats. This reduced service crew labor by over 10 hours per week.<br/>
                             ● Created maps to aid service crews in infrastructure maintenance and construction monitoring.<br/>
                             ● Assessed condition of utility assets, including over 3,000 fire hydrants and power poles, to determine maintenance needs.<br/>
                             ● Collected and analyzed radio signal strength data to determine communication dead zones and propose sites for additional radio towers.</p>
                 </div>
             </div>
+
+            <div id="projects-section">
+                <h1>Projects</h1>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <a href="projects/spotify-analysis.html">
+                            <img src="../files/projectImages/spotify.jpg" alt="Spotify Streaming Data Analysis">
+                            <h2>Spotify Streaming Data Analysis</h2>
+                            <p>Skills: Python, Data Analysis, Pandas</p>
+                        </a>
+                    </div>
+            
+                    <div class="project-card">
+                        <a href="projects/semantic-chunking.html">
+                            <img src="../files/projectImages/semantic-chunking.png" alt="Semantic Chunking RAG LLM Workflow">
+                            <h2>Semantic Chunking RAG LLM Workflow</h2>
+                            <p>Skills: Python, RAG, NLP</p>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <a href="projects/baywheels.html">
+                            <img src="../files/projectImages/lyftBaywheels.jpg" alt="Lyft Baywheels Analysis">
+                            <h2>Lyft Baywheels Analysis</h2>
+                            <p>Skills: Python</p>
+                        </a>
+                    </div>
+            
+                    <div class="project-card">
+                        <a href="projects/object-detection.html">
+                            <img src="../files/projectImages/objectDetection.png" alt="Object Detection Application">
+                            <h2>Object Detection Application</h2>
+                            <p>Skills: YOLOv5, Flask, Computer Vision</p>
+                        </a>
+                    </div>
+            
+                    <div class="project-card">
+                        <a href="projects/budget-savings.html">
+                            <img src="../files/projectImages/budgetCalc.png" alt="Budget & Savings Calculator">
+                            <h2>Budget & Savings Calculator</h2>
+                            <p>Skills: JavaScript, HTML, CSS</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+
+
+            
             <div id="projects">
                 <h1>Projects</h1>
                 <ul>
+
                     <li class="project">
-                        <h2>Spotify Streaming Data Analysis (Personal)</h2>
-                        <ul class="desc">
-                            <li></li>
-                        </ul>
-                    </li>
-                    <li class="project">
-                        <h2>Semantic Chunking RAG LLM Workflow (Personal)</h2>
-                        <ul class="desc">
-                            <li></li>
+                        <h2>Semantic Chunking RAG LLM Workflow (Personal)</h2>                        <ul class="desc">
+                            <li>Developed workflows for chunking and retrieval-augmented generation (RAG) to optimize large language model performance.</li>
                         </ul>
                     </li>
                     <li class="project">
                         <h2>Text Mining Knowledge Graph (Personal)</h2>
                         <ul class="desc">
-                            <li></li>
+                            <li>Built a knowledge graph using text mining techniques to extract insights from unstructured data.</li>
+                        </ul>
+                    </li>
+                    <li class="project">
+                        <h2>Object Detection Application (Personal)</h2>
+                        <ul class="desc">
+                            <li>This project implements an object detection system using YOLOv5. It allows users to upload images or videos, processes the inputs to detect objects, and returns labeled images along with a categorized tally of detected objects. This project was built with Flask for the backend, YOLOv5 for detection, and a front-end created using HTML, CSS, and JavaScript.</li>
+                        </ul>
+                    </li>
+                    <li class="project">
+                        <h2>Personal Finance Tools: Budget & Savings Calculator</h2>
+                        <ul class="desc">
+                            <li>This project features two interactive financial tools: a Budget Calculator and a Savings Calculator. Users can input monthly income and expenses, organize expenses into custom categories, and instantly see how they affect their total balance. Additionally, the Savings Calculator projects the growth of savings over time, factoring in contributions and interest rates.</li>
                         </ul>
                     </li>
                     <li class="project">
@@ -217,6 +280,6 @@
     <footer>
         <!--<p>&copy; 2024 Benjamin Holland. All rights reserved.</p>-->
     </footer>
-    <script src="./script.js"></script>
+    <script src="./scripts/script.js"></script>
 </body>
 </html>

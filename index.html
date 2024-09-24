@@ -4,27 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benjamin Holland</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/home.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="professional.html" class="slide-button" data-text="Professional">Professional</a></li>
+                <li><a href="index.html" class="slide-button" data-text="Home">Home</a></li>
+                <li><a href="professional/professional.html" class="slide-button" data-text="Professional">Professional</a></li>
                 <li><a href="personal.html" class="slide-button" data-text="Personal">Personal</a></li>
-                <li><a href="#contacts" class="slide-button" data-text="Contact">Contact</a></li>
+                <li><a href="resume.html" class="slide-button" data-text="Resume">Resume</a></li>
+                <li><a href="mailto:benjamin.holland99@gmail.com?subject=Hello Ben!" class="slide-button" data-text="Contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
         <section class="glass">
             <div id="about">
                 <h1>About Me</h1>
                 <p>Welcome to my personal website! I'm Benjamin Holland, a data scientist and software engineer passionate about analytics and data driven decisions.</p>
-
                 <p>This site is currently a work in progress but I will be adding old and current projects here shortly.</p>
             </div>
 
+            <div id="projects">
+                <h1>Featured Projects</h1>
+                <div class="project-card">
+                    <h2>Spotify Streaming Data Analysis</h2>
+                    <p>A deep dive into Spotify streaming data to uncover trends and listening habits over time...</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="project-card">
+                    <h2>Semantic Chunking RAG LLM Workflow</h2>
+                    <p>Developing workflows with chunking and retrieval-augmented generation (RAG) for large language models...</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
 
             <div id="contacts">
                 <h1>Contact Me</h1>
@@ -33,19 +49,16 @@
                     <li><a href="https://www.linkedin.com/in/benjaminkholland37/"><img src="files/logos/linkedin-logo.png" height="30px"></a></li>
                     <li><a href="https://www.instagram.com/benjaminkhollan/"><img src="files/logos/instagram-logo.png" height="30px"></a></li>
                     <li><a href="mailto:benjamin.holland99@gmail.com?subject=Hello Ben!"><img src="files/logos/email-logo.png" height="30px"></a></li>
-                    <li><a href="BKHResume07092024.pdf"><img src="files/logos/file-logo.png" height="30px"></a></li>
-
+                    <li><a href="documents/BKHResume07092024.pdf"><img src="files/logos/file-logo.png" height="30px"></a></li>
                 </ul>
-
-
-                
             </div>
         </section>
     </main>
+
     <footer>
-        <!--<p>&copy; 2024 Benjamin Holland. All rights reserved.</p>-->
-        <p>Last Modified: July, 11th 2024.</p>
+        <p>&copy; 2024 Benjamin Holland. All rights reserved.</p>
     </footer>
-    <script src="./script.js"></script>
+
+    <script src="./scripts/script.js"></script>
 </body>
 </html>
