@@ -12,7 +12,7 @@
 }
 
 .coursework-section .university-logo {
-    flex: 0 0 150px; /* Uniform logo size */
+    flex: 0 0 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
 
 .university-logo img {
     max-width: 100%;
-    height: auto; /* Remove any border-radius to avoid circles */
+    height: auto;
 }
 
 .coursework-content h2 {
@@ -40,7 +40,6 @@
     font-size: 16px;
 }
 
-/* Mobile Responsiveness */
 @media (max-width: 768px) {
     .coursework-section {
         flex-direction: column;
@@ -69,8 +68,8 @@
 }
 
 .project-card {
-    padding: 0; /* Ensure no padding inside the card */
-    margin: 0; /* Ensure no margin inside the card */
+    padding: 0;
+    margin: 0;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -78,17 +77,17 @@
     overflow: hidden;
     text-align: center;
     display: flex;
-    flex-direction: column; /* Keep everything in a vertical flow */
-    justify-content: flex-start; /* Align items to the top */
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 
 .project-card img {
     width: 100%;
-    height: 200px; /* Keep this for consistent image size */
-    object-fit: cover; /* Ensures the image fills the box */
-    margin-top: 0; /* Remove any margin on top */
-    padding-top: 0; /* Remove any padding on top */
+    height: 200px;
+    object-fit: cover;
+    margin-top: 0;
+    padding-top: 0;
     border-bottom: 2px solid #D2BC79;
 }
 
