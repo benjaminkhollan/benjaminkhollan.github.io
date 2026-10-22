@@ -1,30 +1,24 @@
-# benjaminkhollan.github.io
+# Benjamin Holland — personal website
 
-## The homepage for all things Benjamin:
+A static portfolio for benjaminholland.com, built for GitHub Pages with HTML, CSS, and vanilla JavaScript.
 
-https://benjaminkhollan.github.io/home.html
+## Preview
 
-List of running links. Will be moved elsewhere soon :)
-https://gopoly.com/sports/track-and-field/roster/benjamin-holland/6727
+Run `python3 -m http.server 8765 --bind 127.0.0.1` from this directory and open http://127.0.0.1:8765.
 
-https://www.runnerspace.com/video.php?video_id=188678
+## Editing
 
-https://www.runnerspace.com/gprofile.php?mgroup_id=44789&mgroup_event_id=4178&year=2015&do=videos&video_id=156970
+- `index.html`: homepage, project cards, about, and outdoor photography.
+- `scripts/site.js`: project story content, filters, dialogs, and resume print action.
+- `styles/site.css`: responsive design and print styles.
+- `personal.html`: running records and personal archive, retaining the original external links.
+- `resume.html`: current career summary, printable using the browser's Save as PDF option.
+- `assets/`: optimized copies of the existing photos and the new favicon.
 
-https://www.runnerspace.com/gprofile.php?mgroup_id=29924&do=videos&video_id=156101
+Project visuals are illustrative diagrams rather than screenshots of proprietary software. The public edition omits employer commercial figures and pending-patent details. The personal job-search workflow is identified as in progress. Existing legacy project files remain in the repository.
 
-https://jhsplank.com/3629/sports/cross-country-sections/
+## Verification
 
-https://issuu.com/jesuithighschool/docs/2016_fall_sports_program
+Checked at 1440 × 1000 and 390 × 844: homepage and photo loading, project filtering, dialog opening/closing including Escape, personal archive navigation, and resume layout. No horizontal overflow observed on the homepage, personal archive, or resume at the phone width. JavaScript syntax checked with `node --check scripts/site.js`.
 
-https://jhsplank.com/3660/showcase/cross-country-advancing-to-state/
-
-https://www.crosscountryexpress.com/2016/10/sac-joaquin-section-rankings-by.html
-
-https://www.crosscountryexpress.com/2015/10/northern-california-top-10-teams.html
-
-https://lynbrooksports.prepcaltrack.com/ATHLETICS/XC/2015/allnorca.htm
-
-https://lynbrooksports.prepcaltrack.com/ATHLETICS/XC/2016/allnorca.htm
-
-https://www.crosscountryexpress.com/2015/10/
+Google Fonts supplies DM Sans and Manrope; system sans-serif fallbacks are included. No build step, API key, or backend is required.
